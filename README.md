@@ -1,3 +1,17 @@
+进行了一些自定义修改
+1. 修改~/src/test_runner.py第276行，取消格式化字符函数（测试描述支持HTML标签）
+2. 修改~/src/tools/template.py，删除英文部分，增加汇总信息背景颜色
+3. 修改~/src/tools/log/handler_factory.py第23行日志输出格式
+4. 修改~/src/tools/template.py, 增加ico标签
+5. 修改~/src/tools/data_driven.py的_mk_test_name函数，注释82、83，新增85~96
+6. 删除js定义行，改为引用，并自动生成index.js；压缩css行
+7. REPORT_IMG_TMPL 修改为lazyload加载图片
+8. HTML_TMPL 新增 jquery.lazyload 相关
+
+
+
+-------------------------------------------------------------------
+
 # HTMLReport
 
 `HTMLReport`是一个单元测试测试运行器，可以将测试结果保存在 Html 文件中，用于人性化的结果显示。
