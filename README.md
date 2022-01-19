@@ -1,4 +1,4 @@
-进行了一些自定义修改
+进行了一些自定义修改(HTMLreport == 2.2.2)
 1. 修改~/src/test_runner.py第276行，取消格式化字符函数（测试描述支持HTML标签）
 2. 修改~/src/tools/template.py，删除英文部分，增加汇总信息背景颜色
 3. 修改~/src/tools/log/handler_factory.py第23行日志输出格式
